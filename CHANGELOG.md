@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0 — Mobile world and living village
+
+- Centralized navigation geometry, aligned the bridge deck/landings, opened the east dirt road and inn-side path, and preserved valid far-east save positions.
+- Added movement-triggered region portals with a darkened world swap, input guard, safe arrivals, cooldown and existing mine lock.
+- Reworked mobile HUD into compact status/quest/minimap controls; added a wider default camera, zoom controls and safe-area spacing.
+- Added masked animated water, timed gathering tool/progress effects, detailed directional NPC sprites, portraits and conversations with forge/inn/ranger services.
+- Expanded core, full-flow and focused mobile regression coverage. Existing saves remain compatible.
+
 ## 0.3.0 — Willowmere and detailed traveler
 
 - Replaced broad collision allowances with traced ground surfaces, blocked the reported forge-side fence/rock gap, moved inaccessible deposits, and added safe migration for saved positions. Corrected southern gate navigation and overhead sign occlusion.

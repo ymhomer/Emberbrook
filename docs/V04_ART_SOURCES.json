@@ -1,0 +1,44 @@
+[
+  {
+    "path": "src/assets/npc-smith-v4.png",
+    "sha256": "42f885ea99e78b1d2803c4d12f7a1e4ab02487a195502946f021995fbe8cda78",
+    "bytes": 81594,
+    "source": "Original imagegen NPC sheet"
+  },
+  {
+    "path": "src/assets/water-mask-village-v4.png",
+    "sha256": "35eeed1445b8228e64ff5062a0ecc73b17d701fef6f93a0f57a536ce9d257000",
+    "bytes": 5655,
+    "source": "Derived mask or foreground from original Emberbrook map"
+  },
+  {
+    "path": "src/assets/bridge-front-v4.png",
+    "sha256": "134eb8f13e47a58f9ea2cb41354f1d6fbe25257adb833c602cdeb26c917f33ee",
+    "bytes": 37520,
+    "source": "Derived mask or foreground from original Emberbrook map"
+  },
+  {
+    "path": "src/assets/npc-resident-v4.png",
+    "sha256": "a946fca3ecefeeab25abc67efecc829658713b538256512ea2fdccb55e914079",
+    "bytes": 69439,
+    "source": "Original imagegen NPC sheet"
+  },
+  {
+    "path": "src/assets/npc-innkeeper-v4.png",
+    "sha256": "d0d1a0649b00b9c9924f3fd934d59d338fda8a3bea3bc6bb2597a5a38fd0520c",
+    "bytes": 73520,
+    "source": "Original imagegen NPC sheet"
+  },
+  {
+    "path": "src/assets/water-mask-forest-v4.png",
+    "sha256": "06cf9c313c393cf778b987c5275844f99c9f295fd3462c2cbaf93e4bcfbf737e",
+    "bytes": 3477,
+    "source": "Derived mask or foreground from original Emberbrook map"
+  },
+  {
+    "path": "src/assets/npc-portraits-v4.png",
+    "sha256": "8bf33a02874e26838a29bcc13082c510034b920e0f7fe7f6c7bc83217f349475",
+    "bytes": 88403,
+    "source": "Original imagegen NPC sheet"
+  }
+]

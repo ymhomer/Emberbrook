@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Compact mobile HUD, wider default field of view and working zoom controls",
+    "Masked river texture visibly changes over time",
+    "Manual bridge crossing reaches east road and triggers a darkened region swap without confirmation or bounce",
+    "Gathering shows a timed tool swing and awards exactly one resource",
+    "Detailed NPCs support dialogue, story follow-up and inn healing; landscape layout stays contained",
+    "Locked mine trigger preserves the blade requirement"
+  ],
+  "errors": []
+}

@@ -34,5 +34,7 @@
     "emberbrook-village-zh.png",
     "emberbrook-mobile.png"
   ],
-  "externalRequests": []
+  "externalRequests": [],
+  "version": "0.4.0",
+  "recordedAt": "2026-11-11T16:32:04.560092+00:00"
 }

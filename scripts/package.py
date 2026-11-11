@@ -19,6 +19,6 @@ for folder in ['src','scripts','tests','docs','.github']:
   if p.is_file() and '__pycache__' not in p.parts:source.append((p,Path('Emberbrook-source')/p.relative_to(r)))
 for n in ['README.md','PROJECT.json','CHANGELOG.md','ENVIRONMENT.md','package.json','package-lock.json','.gitignore']:
  source.append((r/n,Path('Emberbrook-source')/n))
-report=[make('Emberbrook-playable-v0.3.zip',web),make('Emberbrook-source-v0.3.zip',source)]
+report=[make('Emberbrook-playable-v0.4.zip',web),make('Emberbrook-source-v0.4.zip',source)]
 (out/'SHA256SUMS.txt').write_text(''.join(x['sha256']+'  '+x['file']+'\n' for x in report))
 print(json.dumps(report,indent=2))

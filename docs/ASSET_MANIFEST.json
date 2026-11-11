@@ -10,6 +10,11 @@
     "bytes": 61640
   },
   {
+    "path": "src/assets/bridge-front-v4.png",
+    "sha256": "134eb8f13e47a58f9ea2cb41354f1d6fbe25257adb833c602cdeb26c917f33ee",
+    "bytes": 37520
+  },
+  {
     "path": "src/assets/dungeon.webp",
     "sha256": "59e2a54d6a8d1feb9f06097ff861bfca275f743346b5d72686f1d84afd1a5d27",
     "bytes": 754366
@@ -36,8 +41,8 @@
   },
   {
     "path": "src/assets/fonts/ui.ttf",
-    "sha256": "5efafa8883cb9fa7e7ad7f69c68727ec7bd79bd366aa0b8540b99a30d94257cd",
-    "bytes": 136164
+    "sha256": "dddc295a27b41060dc4aea8b8f030ff66e54223136d4050cbe26874c389edbb9",
+    "bytes": 142808
   },
   {
     "path": "src/assets/foreground.png",
@@ -60,14 +65,34 @@
     "bytes": 3239
   },
   {
+    "path": "src/assets/npc-innkeeper-v4.png",
+    "sha256": "d0d1a0649b00b9c9924f3fd934d59d338fda8a3bea3bc6bb2597a5a38fd0520c",
+    "bytes": 73520
+  },
+  {
     "path": "src/assets/npc-innkeeper.png",
     "sha256": "e87210220bb87ef7886750409b622fd79ad3e981773a7155e51bdb495d34ef32",
     "bytes": 3169
   },
   {
+    "path": "src/assets/npc-portraits-v4.png",
+    "sha256": "8bf33a02874e26838a29bcc13082c510034b920e0f7fe7f6c7bc83217f349475",
+    "bytes": 88403
+  },
+  {
+    "path": "src/assets/npc-resident-v4.png",
+    "sha256": "a946fca3ecefeeab25abc67efecc829658713b538256512ea2fdccb55e914079",
+    "bytes": 69439
+  },
+  {
     "path": "src/assets/npc-resident.png",
     "sha256": "670b57e4e9c51f472e7d61fe9213166905fd3a76e228e3d745dbd5fb03eba66b",
     "bytes": 3207
+  },
+  {
+    "path": "src/assets/npc-smith-v4.png",
+    "sha256": "42f885ea99e78b1d2803c4d12f7a1e4ab02487a195502946f021995fbe8cda78",
+    "bytes": 81594
   },
   {
     "path": "src/assets/npc-smith.png",
@@ -100,29 +125,44 @@
     "bytes": 963220
   },
   {
+    "path": "src/assets/water-mask-forest-v4.png",
+    "sha256": "06cf9c313c393cf778b987c5275844f99c9f295fd3462c2cbaf93e4bcfbf737e",
+    "bytes": 3477
+  },
+  {
+    "path": "src/assets/water-mask-village-v4.png",
+    "sha256": "35eeed1445b8228e64ff5062a0ecc73b17d701fef6f93a0f57a536ce9d257000",
+    "bytes": 5655
+  },
+  {
     "path": "src/assets/wisp.png",
     "sha256": "d7e8b5909b31f33cf5d4dd52dffbd2382e48133ef511891e6e00bbf7cfef6971",
     "bytes": 474
   },
   {
     "path": "src/core.js",
-    "sha256": "6ff618b7e91004418067f635fd24ff29bb675b1babbf3301439a72c3eb6fb0ec",
-    "bytes": 8216
+    "sha256": "658c2948de9b3836a36e9c13f157a977b32fba3e7cc669e415a94deb8ed3a0eb",
+    "bytes": 6281
   },
   {
     "path": "src/game.js",
-    "sha256": "56a4893aa37c020a6e4a3dd2ae3c656ce278f65f54fe0940ad7c2439312fc0c2",
-    "bytes": 21815
+    "sha256": "0227f380abb3847c00186671acbdc8f5d2943d709313f7326fdc4b000072a703",
+    "bytes": 25849
   },
   {
     "path": "src/index.html",
-    "sha256": "1f8938529804993d4645adb254e52d7dc09c9f8659235e75e4544d1f35762097",
-    "bytes": 9930
+    "sha256": "974344536d2912f28f899785af0e51ecde7d1b251526da60165f3c5c0c2dc173",
+    "bytes": 10386
+  },
+  {
+    "path": "src/navigation.js",
+    "sha256": "3d92e90a8fe64749152df358bb14623cfca1a36a06ddb4fddd551ed7b1527fba",
+    "bytes": 11155
   },
   {
     "path": "src/style.css",
-    "sha256": "ed2e8e772785d45bd367658cbf0719ff8cb78d9a6ad612f38037f4a5575209e3",
-    "bytes": 27067
+    "sha256": "f34422e12f4b7eeb5211a0b30e7601370a82928cf203ff75639f5b1c3e3fdc24",
+    "bytes": 31755
   },
   {
     "path": "src/touch.js",
@@ -131,7 +171,12 @@
   },
   {
     "path": "src/ui.js",
-    "sha256": "070df267f25f9eaae4f147cb4634dcab5ff465ad7d9a621a94c11d01bc170748",
-    "bytes": 29134
+    "sha256": "d77e6e4c62af575be5679a9bc93ca329530223add8e7944d94be6d65f6cacdf9",
+    "bytes": 32854
+  },
+  {
+    "path": "src/world-effects.js",
+    "sha256": "2c9414cf454ffd00ba24e12a215847128d20149ccc79a12e18484772a604531b",
+    "bytes": 2816
   }
 ]
