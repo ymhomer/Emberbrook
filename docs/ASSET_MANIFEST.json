@@ -1,0 +1,112 @@
+[
+  {
+    "path": "src/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "src/assets/dungeon.webp",
+    "sha256": "59e2a54d6a8d1feb9f06097ff861bfca275f743346b5d72686f1d84afd1a5d27",
+    "bytes": 754366
+  },
+  {
+    "path": "src/assets/favicon.svg",
+    "sha256": "2c9791413d63b2bdbe7162054d5a381d8d788b1de7f41e87601ef8348539e079",
+    "bytes": 244
+  },
+  {
+    "path": "src/assets/fonts/cormorantgaramond-OFL.txt",
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+    "bytes": 4387
+  },
+  {
+    "path": "src/assets/fonts/display.ttf",
+    "sha256": "9f6efe6c00559557b3e3c640aca1f36b325284f7868ba37d21f21222f18d6408",
+    "bytes": 34188
+  },
+  {
+    "path": "src/assets/fonts/notosanstc-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "bytes": 4388
+  },
+  {
+    "path": "src/assets/fonts/ui.ttf",
+    "sha256": "fb753eb66e72b8e30b02829e59563e18f372e5b5aa6140f7a95407c6162dbaff",
+    "bytes": 109720
+  },
+  {
+    "path": "src/assets/foreground.png",
+    "sha256": "e122508df90c18c4124c9e76262db246ad575bfafe9662a9784dac2f05434f1b",
+    "bytes": 639870
+  },
+  {
+    "path": "src/assets/hero.png",
+    "sha256": "4f5e5718fd3725c24a92cc26f5e60a7ea9ed273c0e02c1641f2484d857882118",
+    "bytes": 3239
+  },
+  {
+    "path": "src/assets/npc-innkeeper.png",
+    "sha256": "e87210220bb87ef7886750409b622fd79ad3e981773a7155e51bdb495d34ef32",
+    "bytes": 3169
+  },
+  {
+    "path": "src/assets/npc-resident.png",
+    "sha256": "670b57e4e9c51f472e7d61fe9213166905fd3a76e228e3d745dbd5fb03eba66b",
+    "bytes": 3207
+  },
+  {
+    "path": "src/assets/npc-smith.png",
+    "sha256": "d3b08f82187c51b684f818e7443cf53eeb59dd48b8a0d2cb2812aaf99bcfc948",
+    "bytes": 3191
+  },
+  {
+    "path": "src/assets/ore.png",
+    "sha256": "8b11c17e96e890ade715cbfa2d25c3488c3858afa94c199d841a99f3226640ab",
+    "bytes": 597
+  },
+  {
+    "path": "src/assets/portrait.png",
+    "sha256": "313901ad1c84feb4664b1f8de229947447041eb416374d8daa87d5a094bdff6f",
+    "bytes": 1309
+  },
+  {
+    "path": "src/assets/timber.png",
+    "sha256": "4d3a8d90f33a3898c5f0c33f9cce50537fda1d079073fadda39d739ef569fa63",
+    "bytes": 431
+  },
+  {
+    "path": "src/assets/village.webp",
+    "sha256": "fc28456c5446f28d52f9c769f210098b6a923eb7c7074261510efdb5e201df3e",
+    "bytes": 963220
+  },
+  {
+    "path": "src/assets/wisp.png",
+    "sha256": "d7e8b5909b31f33cf5d4dd52dffbd2382e48133ef511891e6e00bbf7cfef6971",
+    "bytes": 474
+  },
+  {
+    "path": "src/core.js",
+    "sha256": "fa6c91e6054c2f5c0dc2839a493f60e39ed94d262517e0d530f3f81c5bc54093",
+    "bytes": 3834
+  },
+  {
+    "path": "src/game.js",
+    "sha256": "ee40b585d676a338582bf6339675889f909632efc5b1759374229683d9460873",
+    "bytes": 19231
+  },
+  {
+    "path": "src/index.html",
+    "sha256": "16100c22572cb52e2d3b30b8b98b0a1c5bd58ff37480234f8641ec1a50278981",
+    "bytes": 9441
+  },
+  {
+    "path": "src/style.css",
+    "sha256": "a88fe8c1f45af6b7c44fe4e134f8597edfad27bf563c930e9fe9369d8afa82ca",
+    "bytes": 22378
+  },
+  {
+    "path": "src/ui.js",
+    "sha256": "e956c3fcc5f739c1edff061480c595b1283aa47a250523a54c076cad61af0f47",
+    "bytes": 20653
+  }
+]

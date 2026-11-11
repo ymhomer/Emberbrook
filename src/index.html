@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#171e19"><meta name="description" content="A little world, an unfinished story. Explore Emberbrook, gather materials and forge your first adventure."><title>Emberbrook — A Little World Awaits</title><link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css"></head>
+<body>
+<svg class="svg-library" aria-hidden="true"><defs>
+<symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 3C8 1 2 7 5 15c5 5 14 1 15-12Z"/><path d="m3 21 12-12M8 16l-1-5m5 1 5 1"/></symbol>
+<symbol id="i-wood" viewBox="0 0 24 24"><path d="m5 17 11-12c4-3 8 2 5 5L10 21C5 24 1 20 5 17Z"/><ellipse cx="7" cy="19" rx="3" ry="2.5" transform="rotate(-40 7 19)"/><path d="m9 11 4 3m1-8 4 3"/></symbol>
+<symbol id="i-ore" viewBox="0 0 24 24"><path d="m3 15 4-9 10-2 5 9-5 8H7Z"/><path d="m7 6 4 7-4 8m4-8 11 0M11 13l6-9"/></symbol>
+<symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="6"/><path d="M12 8v8m-2-6 2-2"/></symbol>
+<symbol id="i-sword" viewBox="0 0 24 24"><path d="m8 15 10-12h4v4L11 18M5 12l8 8m-9 0 5-5m-7 7 2-2"/></symbol>
+<symbol id="i-bag" viewBox="0 0 24 24"><path d="M8 6V5a4 4 0 0 1 8 0v1M5 7h14l2 14H3ZM4 15h16M9 14v3m6-3v3"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><path d="m2 5 6-3 8 3 6-3v17l-6 3-8-3-6 3ZM8 2v17m8-14v17"/></symbol>
+<symbol id="i-hammer" viewBox="0 0 24 24"><path d="m4 19 9-9 3 3-9 9ZM10 6l5-4 7 7-4 5-2-4-2-2Z"/></symbol>
+<symbol id="i-quest" viewBox="0 0 24 24"><path d="M7 3h13v18H5V7H2V3Zm-2 4h4V3m1 6h6m-6 4h6m-6 4h4"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6 7 1-5 5 1 8-6-4-6 4 1-8-5-5 7-1Z"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><path d="m9 3 1-2h4l1 3 3 1 3-1 2 4-2 2v4l2 2-2 4-3-1-3 1-1 3h-4l-1-3-3-1-3 1-2-4 2-2v-4L1 8l2-4 3 1Z"/><circle cx="12" cy="12" r="4"/></symbol>
+<symbol id="i-save" viewBox="0 0 24 24"><path d="M3 3h15l3 3v15H3ZM7 3v7h10V3M7 21v-7h10v7"/></symbol>
+<symbol id="i-sound" viewBox="0 0 24 24"><path d="m3 9 5 0 5-5v16l-5-5H3Zm13-2c4 3 4 7 0 10m3-13c6 5 6 11 0 16"/></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15A9 9 0 0 1 9 3a9 9 0 1 0 11 12Z"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 21S1 14 2 7c1-6 8-6 10-1 2-5 9-5 10 1 1 7-10 14-10 14Z"/></symbol>
+</defs></svg>
+<header class="topbar">
+<a class="brand" href="#" aria-label="Emberbrook home"><span class="brand-mark"><svg><use href="#i-leaf"/></svg></span><span><b>EMBERBROOK</b><small data-i18n="brandSub">A LITTLE WORLD AWAITS</small></span></a>
+<div class="location"><span class="live-dot"></span><span id="top-location">The village</span><span class="divider">/</span><span data-i18n="chapter">Chapter I</span></div>
+<div class="resources" aria-label="Resources"><div title="Gold"><svg class="gold"><use href="#i-coin"/></svg><b id="gold-value">120</b></div><div title="Timber"><svg class="wood"><use href="#i-wood"/></svg><b id="wood-value">0</b></div><div title="Iron ore"><svg class="ore"><use href="#i-ore"/></svg><b id="ore-value">0</b></div><span class="resource-separator"></span><button class="icon-button" id="sound-button" aria-label="Toggle sound" aria-pressed="false"><svg><use href="#i-sound"/></svg></button><button class="language-button" id="language-button" aria-label="Switch language">中</button></div>
+</header>
+<main id="game-shell">
+<div id="game" aria-label="Emberbrook interactive village. Use WASD or arrow keys to move and E to interact." tabindex="0"></div>
+<div class="scene-shade" aria-hidden="true"></div>
+<div id="loading" role="status"><div class="loader-crest"><svg><use href="#i-leaf"/></svg></div><h1>Emberbrook</h1><p data-i18n="loading">Opening a little world…</p><div class="load-track"><i id="load-fill"></i></div></div>
+<aside class="left-panels">
+<section class="panel character-panel"><div class="portrait"><img src="./assets/portrait.png" alt="Rowan, the traveler"><span id="level-badge">1</span></div><div class="character-info"><small data-i18n="traveler">THE TRAVELER</small><h2>Rowan</h2><div class="health-row"><svg><use href="#i-heart"/></svg><div class="health-track"><i id="health-fill"></i></div><span id="health-value">100</span></div><p><span data-i18n="class">Wanderer</span><span>·</span><span id="xp-label">0 XP</span></p></div></section>
+<section class="panel quest-panel"><div class="panel-eyebrow"><svg><use href="#i-quest"/></svg><span data-i18n="journal">YOUR NEXT CHAPTER</span><button class="small-diamond" id="quest-collapse" aria-label="Collapse quest details" aria-expanded="true">−</button></div><h2 id="quest-title">A spark of something</h2><p id="quest-description">Every great adventure starts with a well-made blade.</p><div id="quest-objectives"></div><div class="quest-reward"><span data-i18n="reward">Chapter reward</span><span><svg><use href="#i-coin"/></svg>250 <i>+ 100 XP</i></span></div></section>
+<button class="discovery-card" id="journal-button"><span class="discovery-icon"><svg><use href="#i-map"/></svg></span><span><b data-i18n="exploreTitle">A place to call home</b><small data-i18n="exploreSub">Discover the village</small></span><span class="arrow">↗</span></button>
+</aside>
+<div class="area-label"><span class="region-line"></span><p id="region-small">THE VERDANT VALLEY</p><h1 id="region-name">Emberbrook</h1><span class="region-under"><i></i> <span data-i18n="regionTag">Take a breath. Stay a while.</span> <i></i></span></div>
+<aside class="right-panels"><section class="panel bag-panel"><div class="panel-title"><h2><svg><use href="#i-bag"/></svg><span data-i18n="satchel">Your satchel</span></h2><button class="tiny-button" id="bag-collapse" aria-label="Collapse satchel" aria-expanded="true">−</button></div><div id="bag-content"><div class="bag-tabs"><span class="active" data-i18n="allItems">All items</span><span id="bag-count">3 / 12</span></div><div class="inventory-grid" id="inventory-grid"></div><div class="equipped-line"><span data-i18n="equipped">EQUIPPED</span><span id="equipped-name">Traveler’s tools</span></div><div class="equipment-card" id="equipment-card"><span class="equipment-icon"><svg><use href="#i-hammer"/></svg></span><div><b data-i18n="tools">Traveler’s tools</b><small data-i18n="toolsDesc">A little worn. Full of possibility.</small></div></div></div></section><section class="panel minimap-panel"><div class="minimap" id="minimap"><img src="./assets/village.webp" alt="Village overview"><i id="minimap-dot"></i><span class="compass">N</span></div><div class="minimap-bottom"><span><i class="live-dot"></i><span id="map-location">Emberbrook Village</span></span><button id="map-button" class="tiny-button" aria-label="Open village map">⤢</button></div></section></aside>
+<div id="interact-prompt" class="interact-prompt hidden"><kbd>E</kbd><span></span></div>
+<div class="bottom-left"><span class="weather-icon">☀</span><div><b id="world-time">16:24</b><small data-i18n="day">DAY 01 · EARLY AUTUMN</small></div><button id="light-button" title="Toggle dusk lighting" aria-label="Toggle dusk lighting"><svg><use href="#i-moon"/></svg></button></div>
+<nav class="action-dock" aria-label="Game actions"><button class="dock-button active" id="explore-button"><svg><use href="#i-map"/></svg><span data-i18n="explore">Explore</span><kbd>1</kbd></button><button class="dock-button" id="forge-button"><svg><use href="#i-hammer"/></svg><span data-i18n="forge">Forge</span><kbd>2</kbd></button><button class="dock-button" id="inventory-button"><svg><use href="#i-bag"/></svg><span data-i18n="inventory">Inventory</span><kbd>I</kbd></button><button class="dock-button" id="quest-button"><svg><use href="#i-quest"/></svg><span data-i18n="quests">Journal</span><kbd>J</kbd></button><span class="dock-separator"></span><button class="dock-button save-action" id="save-button"><svg><use href="#i-save"/></svg><span data-i18n="save">Save</span></button></nav>
+<div class="bottom-right"><span class="save-dot"></span><span id="save-status" data-i18n="localSave">Saved on this device</span><span class="build-tag">PREVIEW 0.1</span></div>
+<div class="control-hint"><span><kbd>W</kbd><span class="key-stack"><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span> <span data-i18n="move">move</span></span><span><kbd>E</kbd> <span data-i18n="interact">interact</span></span><span><kbd>SPACE</kbd> <span data-i18n="attack">attack</span></span><span class="click-hint" data-i18n="clickMove">or click to wander</span></div>
+<div id="toast-stack" role="status" aria-live="polite"></div>
+<div class="mobile-controls"><button id="mobile-interact" aria-label="Interact">E</button><button id="mobile-attack" aria-label="Attack">⚔</button></div>
+</main>
+<dialog id="modal"><div class="modal-heading"><div><span id="modal-eyebrow">EMBERBROOK</span><h2 id="modal-title"></h2></div><button class="close-modal" aria-label="Close dialog">×</button></div><div id="modal-body"></div></dialog>
+<footer class="footer"><span>✦ <span data-i18n="footer">A small adventure, made with care.</span></span><span id="footer-status" data-i18n="footerRight">SINGLE PLAYER · LOCAL SAVE · NO ACCOUNT NEEDED</span></footer>
+<script src="./vendor/phaser.min.js"></script><script src="./core.js"></script><script src="./ui.js"></script><script src="./game.js"></script>
+</body></html>

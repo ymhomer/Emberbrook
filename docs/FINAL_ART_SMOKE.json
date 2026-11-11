@@ -1,0 +1,101 @@
+{
+  "errors": [],
+  "snapshots": [
+    {
+      "name": "desktop",
+      "snapshot": {
+        "state": {
+          "version": 1,
+          "wood": 0,
+          "ore": 0,
+          "gold": 120,
+          "health": 100,
+          "xp": 0,
+          "level": 1,
+          "sword": false,
+          "relic": false,
+          "claimed": false,
+          "chestOpened": false,
+          "gatheredWood": 0,
+          "gatheredOre": 0,
+          "kills": 0,
+          "scene": "village",
+          "x": 785,
+          "y": 760,
+          "language": "en",
+          "sound": false
+        },
+        "scene": "village",
+        "ready": true,
+        "position": {
+          "x": 785,
+          "y": 760
+        },
+        "near": [],
+        "pathLength": 0,
+        "storageAvailable": true,
+        "renderer": 2,
+        "fps": 10.427108764648438
+      },
+      "fonts": [
+        {
+          "family": "Ember UI",
+          "status": "loaded"
+        },
+        {
+          "family": "Ember Display",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "name": "mobile",
+      "snapshot": {
+        "state": {
+          "version": 1,
+          "wood": 0,
+          "ore": 0,
+          "gold": 120,
+          "health": 100,
+          "xp": 0,
+          "level": 1,
+          "sword": false,
+          "relic": false,
+          "claimed": false,
+          "chestOpened": false,
+          "gatheredWood": 0,
+          "gatheredOre": 0,
+          "kills": 0,
+          "scene": "village",
+          "x": 785,
+          "y": 760,
+          "language": "zh",
+          "sound": false
+        },
+        "scene": "village",
+        "ready": true,
+        "position": {
+          "x": 785,
+          "y": 760
+        },
+        "near": [],
+        "pathLength": 0,
+        "storageAvailable": true,
+        "renderer": 2,
+        "fps": 20.056427001953125
+      },
+      "fonts": [
+        {
+          "family": "Ember UI",
+          "status": "loaded"
+        },
+        {
+          "family": "Ember Display",
+          "status": "loaded"
+        }
+      ],
+      "overflow": false
+    }
+  ]
+}

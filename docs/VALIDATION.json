@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "core_tests": {
+    "passed": 7,
+    "command": "npm test"
+  },
+  "syntax_checks": "npm run check passed",
+  "build": "npm run build passed",
+  "browser_flow": {
+    "passed": 19,
+    "renderer": "Canvas",
+    "details": "BROWSER_VALIDATION.json",
+    "external_requests": 0,
+    "javascript_errors": 0
+  },
+  "final_art_smoke": {
+    "passed": true,
+    "renderer": "WebGL (automatic renderer selected WebGL on test host)",
+    "details": "FINAL_ART_SMOKE.json",
+    "viewports": [
+      "1440x960 desktop English",
+      "390x844 mobile Traditional Chinese"
+    ],
+    "checks": [
+      "NPC variants and foreground asset load",
+      "bundled fonts loaded",
+      "no horizontal overflow",
+      "no JavaScript errors"
+    ]
+  },
+  "verification_scope": "End-to-end playthrough passed before final NPC/foreground visual refinements. Updated pathfinding tests and WebGL visual smoke passed after those refinements.",
+  "hosting": "Prepared GitHub Pages Actions; not published",
+  "environment": "No system installs, no server ports, no changes to other applications",
+  "limits": [
+    "Only one short chapter and two authored scenes",
+    "Local saves only; no server or multiplayer",
+    "Safari and physical-device performance not tested",
+    "Browser may restrict file URLs; use GitHub Pages if local launch is blocked"
+  ],
+  "direct_file_launch": {
+    "passed": true,
+    "special_browser_file_flags": false,
+    "renderer": "Canvas",
+    "checks": [
+      "bundled font rendering",
+      "keyboard movement",
+      "save write"
+    ],
+    "details": "OFFLINE_VALIDATION.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "Desktop loads offline with bundled fonts and assets",
+    "Keyboard moves hero",
+    "English / Traditional Chinese switch",
+    "Journal opens and Escape closes",
+    "Real click-to-walk pathfinding and timber collection",
+    "Ore mining and resource HUD",
+    "Forge consumes materials and equips blade",
+    "Save survives browser reload",
+    "Village to dungeon transition",
+    "Three wisps defeated with real movement and attacks",
+    "Treasure chest reward cannot be claimed twice",
+    "Altar unlocks after combat",
+    "Return relic, claim reward and complete chapter",
+    "Save export downloads valid completed adventure",
+    "Save import restores the exported adventure",
+    "Completed chapter restores correctly",
+    "390px mobile layout, touch action and inventory dialog",
+    "Blocked storage fails visibly instead of claiming a successful save",
+    "No JavaScript errors or external web dependencies"
+  ],
+  "errors": [],
+  "screenshots": [
+    "emberbrook-village-desktop.png",
+    "emberbrook-hollow-desktop.png",
+    "emberbrook-village-zh.png",
+    "emberbrook-mobile.png"
+  ],
+  "externalRequests": []
+}
