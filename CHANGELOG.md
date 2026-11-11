@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.0 — Touch controls and navigation
+
+- Added an analog touch joystick with deadzone, pointer capture, release/cancel/blur handling, and independent action buttons.
+- Replaced coarse four-way navigation with eight-way A*, continuous segment checks and safe route smoothing. Foot-radius collision and substepped manual movement prevent corner cutting and tunnelling; river crossing is limited to the bridge.
+- Forge errors and crafting success now appear inside the shop dialog. Successful crafting updates the recipe without closing the shop. Other dialog notifications use the same accessible inline notice.
+- Replaced destination button lists with an illustrated atlas, selectable landmark pins, current location, route preview and explicit walk confirmation. Dungeon maps show dungeon destinations; map selection never teleports between regions.
+- Corrected world marker hit areas. Existing version-1 local saves remain compatible.
+
+
 ## 0.1.0 — 2026-11-11
 
 Initial art-focused single-player test build.

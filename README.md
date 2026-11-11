@@ -4,6 +4,8 @@ A small, illustrated single-player fantasy adventure made for GitHub Pages. The 
 
 ## Play
 
+Live: https://ymhomer.github.io/Emberbrook/
+
 For the ready-to-play ZIP, extract all files together and open `index.html` in a modern desktop browser. If your browser restricts local files, use the GitHub Pages build or a local static preview. Do not open the HTML directly inside a ZIP.
 
 - **WASD / arrow keys**: move.
@@ -16,7 +18,7 @@ For the ready-to-play ZIP, extract all files together and open `index.html` in a
 
 **First chapter:** gather 3 timber and 2 iron ore from marked deposits → visit Bram's forge and spend 30 gold to craft a blade → enter the mine → defeat three wisps → take the relic at the altar → return it to Bram. Deposits replenish after a short pause. Rest at the inn or well to recover health.
 
-Use the minimap's expand button for a map with destination buttons. The bottom Forge button opens the crafting panel and offers to walk to the forge if you are far away. Mobile has tap-to-walk and on-screen E / attack buttons.
+Use the minimap's expand button for an illustrated atlas: select a landmark, preview the route, then confirm your destination. The bottom Forge button opens the crafting panel and offers to walk to the forge if you are far away. Mobile has an analog touch joystick, tap-to-walk, and on-screen E / attack buttons. Release the joystick to stop; manual movement cancels an automatic route.
 
 ## Saves
 
@@ -48,7 +50,7 @@ Optional automated browser QA uses Playwright. The local Linux test environment 
 
 Alternatively, commit the contents of the ready-to-play ZIP to a Pages deployment branch and use **Deploy from a branch**. Keep the asset and vendor directories with `index.html`.
 
-Deployment target: https://ymhomer.github.io/Emberbrook/ . Enable GitHub Pages with GitHub Actions in this repository's Pages settings before the first deployment.
+No repository was created or published as part of preparing this local test build.
 
 ## Art and scope
 

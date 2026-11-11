@@ -4,9 +4,9 @@
   "status": "playable-preview-ready",
   "created_at": "2026-11-11T03:19:29.630868+00:00",
   "goal": "Art-focused single-player fantasy village and shrine adventure, ready for GitHub Pages",
-  "version": "0.1.0",
-  "hosting": "GitHub Pages: https://ymhomer.github.io/Emberbrook/ (deployment being configured)",
+  "version": "0.2.0",
+  "hosting": "https://ymhomer.github.io/Emberbrook/",
   "stack": "Phaser 3.90.0 + browser JavaScript, static self-contained build",
-  "validation": "7 core checks + 19 Canvas browser checks; WebGL desktop/mobile visual smoke; direct-file launch without special flags passed",
-  "delivery": "artifacts/delivery/Emberbrook-playable-v0.1.zip"
+  "validation": "10 core checks; browser validation in docs/BROWSER_VALIDATION.json",
+  "delivery": "artifacts/delivery/Emberbrook-playable-v0.2.zip"
 }

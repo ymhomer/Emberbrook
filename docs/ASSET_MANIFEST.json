@@ -31,8 +31,8 @@
   },
   {
     "path": "src/assets/fonts/ui.ttf",
-    "sha256": "fb753eb66e72b8e30b02829e59563e18f372e5b5aa6140f7a95407c6162dbaff",
-    "bytes": 109720
+    "sha256": "aea46860e52cd294d0bcbd6b2a6ce794699d47377fff654dde96c6e96193ae67",
+    "bytes": 114032
   },
   {
     "path": "src/assets/foreground.png",
@@ -86,27 +86,32 @@
   },
   {
     "path": "src/core.js",
-    "sha256": "fa6c91e6054c2f5c0dc2839a493f60e39ed94d262517e0d530f3f81c5bc54093",
-    "bytes": 3834
+    "sha256": "0b9e1ea27e1d32972e822ea3c206d8bb120995977a5c6d4f05ad91cde5ea2e4e",
+    "bytes": 5483
   },
   {
     "path": "src/game.js",
-    "sha256": "ee40b585d676a338582bf6339675889f909632efc5b1759374229683d9460873",
-    "bytes": 19231
+    "sha256": "5c3be83d4be8303d4c63133a1722fbf0a4c36a34b1ecaab1138268312d093801",
+    "bytes": 19243
   },
   {
     "path": "src/index.html",
-    "sha256": "16100c22572cb52e2d3b30b8b98b0a1c5bd58ff37480234f8641ec1a50278981",
-    "bytes": 9441
+    "sha256": "18db52b6b587a808dcfcbd2260f06bca35fc4523672dee97acb6f5cd52d9f76d",
+    "bytes": 9688
   },
   {
     "path": "src/style.css",
-    "sha256": "a88fe8c1f45af6b7c44fe4e134f8597edfad27bf563c930e9fe9369d8afa82ca",
-    "bytes": 22378
+    "sha256": "5658604c74516b2a0b26d9520eace6763616a0dd62bc0846869edfa7e31cf58a",
+    "bytes": 25914
+  },
+  {
+    "path": "src/touch.js",
+    "sha256": "ee025277695cdba2c5a7e390b9bff389371a92043499d0831ee84880cb86c856",
+    "bytes": 1309
   },
   {
     "path": "src/ui.js",
-    "sha256": "e956c3fcc5f739c1edff061480c595b1283aa47a250523a54c076cad61af0f47",
-    "bytes": 20653
+    "sha256": "0741211fcd3528bb516b4239b1ae8693f87785e5abd1f5d2a3d8d2f4dd6800ba",
+    "bytes": 22517
   }
 ]

@@ -11,3 +11,5 @@
 - Browser verification uses file:// and an approved command outside the restricted command sandbox because browser startup system calls are blocked inside it. No HTTP server, open port, global installation, service change or production deployment.
 - Web-deliverable assets are self-contained. Font subsets are embedded into CSS for reliable local-file opening and are also retained with their OFL licenses.
 - Current QA evidence: docs/BROWSER_VALIDATION.json and artifacts/*.png. Do not infer remote GitHub Pages publication from local checks.
+
+2026-11-11 v0.2: reused the existing isolated runtime and pinned dependencies. Updated the local font subset for atlas labels. Published hosting target: https://ymhomer.github.io/Emberbrook/. No host service changes.

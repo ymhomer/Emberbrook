@@ -1,13 +1,13 @@
 {
   "name": "emberbrook",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "A handcrafted single-player village adventure for GitHub Pages",
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node tests/core.test.cjs",
     "test:browser": "node tests/browser.cjs",
-    "check": "node --check src/game.js && node --check src/core.js && node --check src/ui.js"
+    "check": "node --check src/game.js && node --check src/core.js && node --check src/ui.js && node --check src/touch.js"
   },
   "dependencies": {
     "phaser": "3.90.0"
