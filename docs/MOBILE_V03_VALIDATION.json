@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Saved fence position migrates onto walkable ground without losing progress",
+    "High-resolution 128×160-frame character and 2× device-pixel rendering load on mobile",
+    "Healing potion consumes once and displays accurate recovery inside inventory",
+    "Real emulated touch movement and release reset",
+    "Mobile woodland transition, atlas route and responsive layout",
+    "Second touch on attack does not release the movement joystick",
+    "Landscape resize retains 2× backing resolution and input layout"
+  ],
+  "errors": []
+}

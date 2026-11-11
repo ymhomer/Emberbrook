@@ -1,0 +1,26 @@
+[
+  {
+    "file": "src/assets/forest.webp",
+    "source": "Built-in imagegen; original Emberbrook artwork; runtime crop/resize only",
+    "sha256": "171a479f74c881e62ba8f25815646baa0dc07b055bace2597c4e8adb9a704d5b",
+    "bytes": 859340
+  },
+  {
+    "file": "src/assets/hero-v3.png",
+    "source": "Built-in imagegen; original Emberbrook artwork; runtime crop/resize only",
+    "sha256": "95122835a82e04066effc049ae90522b0262f9a80e7f566ec63c394fc9d42279",
+    "bytes": 316437
+  },
+  {
+    "file": "src/assets/portrait-v3.png",
+    "source": "Built-in imagegen; original Emberbrook artwork; runtime crop/resize only",
+    "sha256": "0f004ad9c697aa96cb176a0d994a48bfd6a90593b65979cc8de333a5cb500d89",
+    "bytes": 24348
+  },
+  {
+    "file": "src/assets/arch-v3.png",
+    "source": "Foreground extraction from original village.webp; overhead arch",
+    "sha256": "68c867625535b4e5e745b0d7000162595d16dc1adad26c85b2db44fd341ca502",
+    "bytes": 61640
+  }
+]

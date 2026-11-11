@@ -5,6 +5,11 @@
     "bytes": 0
   },
   {
+    "path": "src/assets/arch-v3.png",
+    "sha256": "68c867625535b4e5e745b0d7000162595d16dc1adad26c85b2db44fd341ca502",
+    "bytes": 61640
+  },
+  {
     "path": "src/assets/dungeon.webp",
     "sha256": "59e2a54d6a8d1feb9f06097ff861bfca275f743346b5d72686f1d84afd1a5d27",
     "bytes": 754366
@@ -31,13 +36,23 @@
   },
   {
     "path": "src/assets/fonts/ui.ttf",
-    "sha256": "aea46860e52cd294d0bcbd6b2a6ce794699d47377fff654dde96c6e96193ae67",
-    "bytes": 114032
+    "sha256": "5efafa8883cb9fa7e7ad7f69c68727ec7bd79bd366aa0b8540b99a30d94257cd",
+    "bytes": 136164
   },
   {
     "path": "src/assets/foreground.png",
     "sha256": "e122508df90c18c4124c9e76262db246ad575bfafe9662a9784dac2f05434f1b",
     "bytes": 639870
+  },
+  {
+    "path": "src/assets/forest.webp",
+    "sha256": "171a479f74c881e62ba8f25815646baa0dc07b055bace2597c4e8adb9a704d5b",
+    "bytes": 859340
+  },
+  {
+    "path": "src/assets/hero-v3.png",
+    "sha256": "95122835a82e04066effc049ae90522b0262f9a80e7f566ec63c394fc9d42279",
+    "bytes": 316437
   },
   {
     "path": "src/assets/hero.png",
@@ -65,6 +80,11 @@
     "bytes": 597
   },
   {
+    "path": "src/assets/portrait-v3.png",
+    "sha256": "0f004ad9c697aa96cb176a0d994a48bfd6a90593b65979cc8de333a5cb500d89",
+    "bytes": 24348
+  },
+  {
     "path": "src/assets/portrait.png",
     "sha256": "313901ad1c84feb4664b1f8de229947447041eb416374d8daa87d5a094bdff6f",
     "bytes": 1309
@@ -86,23 +106,23 @@
   },
   {
     "path": "src/core.js",
-    "sha256": "0b9e1ea27e1d32972e822ea3c206d8bb120995977a5c6d4f05ad91cde5ea2e4e",
-    "bytes": 5483
+    "sha256": "6ff618b7e91004418067f635fd24ff29bb675b1babbf3301439a72c3eb6fb0ec",
+    "bytes": 8216
   },
   {
     "path": "src/game.js",
-    "sha256": "5c3be83d4be8303d4c63133a1722fbf0a4c36a34b1ecaab1138268312d093801",
-    "bytes": 19243
+    "sha256": "56a4893aa37c020a6e4a3dd2ae3c656ce278f65f54fe0940ad7c2439312fc0c2",
+    "bytes": 21815
   },
   {
     "path": "src/index.html",
-    "sha256": "18db52b6b587a808dcfcbd2260f06bca35fc4523672dee97acb6f5cd52d9f76d",
-    "bytes": 9688
+    "sha256": "1f8938529804993d4645adb254e52d7dc09c9f8659235e75e4544d1f35762097",
+    "bytes": 9930
   },
   {
     "path": "src/style.css",
-    "sha256": "5658604c74516b2a0b26d9520eace6763616a0dd62bc0846869edfa7e31cf58a",
-    "bytes": 25914
+    "sha256": "ed2e8e772785d45bd367658cbf0719ff8cb78d9a6ad612f38037f4a5575209e3",
+    "bytes": 27067
   },
   {
     "path": "src/touch.js",
@@ -111,7 +131,7 @@
   },
   {
     "path": "src/ui.js",
-    "sha256": "0741211fcd3528bb516b4239b1ae8693f87785e5abd1f5d2a3d8d2f4dd6800ba",
-    "bytes": 22517
+    "sha256": "070df267f25f9eaae4f147cb4634dcab5ff465ad7d9a621a94c11d01bc170748",
+    "bytes": 29134
   }
 ]

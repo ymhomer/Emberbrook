@@ -20,6 +20,10 @@ For the ready-to-play ZIP, extract all files together and open `index.html` in a
 
 Use the minimap's expand button for an illustrated atlas: select a landmark, preview the route, then confirm your destination. The bottom Forge button opens the crafting panel and offers to walk to the forge if you are far away. Mobile has an analog touch joystick, tap-to-walk, and on-screen E / attack buttons. Release the joystick to stop; manual movement cancels an automatic route.
 
+## Willowmere Woods (0.3)
+
+Walk to **Trail to Willowmere** at the southern village gate using the atlas. In the new woodland, gather moonleaf herbs and play the fishing timing challenge at the pier. Deliver 2 fish and 3 herbs to the ranger for 65 gold, 35 XP and a healing draught; repeat as often as you like. The first delivery unlocks a one-time shrine restoration reward. Drink draughts from Inventory to recover 50 HP, or rest at the campfire. The original chapter and existing saves remain available.
+
 ## Saves
 
 Progress saves automatically every five seconds and after important actions. The Save button saves immediately. **Journal → Adventure & settings** offers save export/import and a confirmed new-game reset.

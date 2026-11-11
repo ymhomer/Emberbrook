@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — Willowmere and detailed traveler
+
+- Replaced broad collision allowances with traced ground surfaces, blocked the reported forge-side fence/rock gap, moved inaccessible deposits, and added safe migration for saved positions. Corrected southern gate navigation and overhead sign occlusion.
+- Added an original detailed sixteen-frame 128×160 traveler, matching portrait and up to 2× device-pixel rendering.
+- Added Willowmere Woods: original illustrated third map, timing-based fishing, replenishing herbs, repeatable ranger deliveries, healing draughts, campfire rest and a one-time shrine restoration reward.
+- Extended the atlas, journal, satchel and Traditional Chinese/English labels. Existing local saves keep first-chapter progress and initialize woodland fields safely.
+- Validation: 14 core checks plus original chapter/woodland browser flow; focused mobile validation recorded separately.
+
 ## 0.2.0 — Touch controls and navigation
 
 - Added an analog touch joystick with deadzone, pointer capture, release/cancel/blur handling, and independent action buttons.

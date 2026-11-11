@@ -13,3 +13,5 @@
 - Current QA evidence: docs/BROWSER_VALIDATION.json and artifacts/*.png. Do not infer remote GitHub Pages publication from local checks.
 
 2026-11-11 v0.2: reused the existing isolated runtime and pinned dependencies. Updated the local font subset for atlas labels. Published hosting target: https://ymhomer.github.io/Emberbrook/. No host service changes.
+
+2026-11-11 v0.3: original woodland and traveler art generated with built-in imagegen; runtime assets prepared with existing Pillow tools. No new dependencies installed. Reused project-local Chromium for complete gameplay and high-DPI mobile checks.
