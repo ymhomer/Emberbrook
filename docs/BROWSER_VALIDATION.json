@@ -1,4 +1,6 @@
 {
+  "version": "0.5.0",
+  "startedAt": "2026-11-12T00:00:54.400Z",
   "checks": [
     "Desktop loads offline with bundled fonts and assets",
     "Keyboard moves hero",
@@ -34,7 +36,5 @@
     "emberbrook-village-zh.png",
     "emberbrook-mobile.png"
   ],
-  "externalRequests": [],
-  "version": "0.4.0",
-  "recordedAt": "2026-11-11T16:32:04.560092+00:00"
+  "externalRequests": []
 }

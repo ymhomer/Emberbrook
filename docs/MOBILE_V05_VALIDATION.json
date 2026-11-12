@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "All NPCs use multiple real animation frames and portal cycles through three visible phases",
+    "East bridge arrives at forest west edge and west return arrives at village east edge",
+    "South village gate reaches a distinct meadow north entry with a reciprocal northward return",
+    "The new meadow supports accessible herb gathering and picnic recovery",
+    "Large transparent standee, bottom parchment dialogue and separate choices work on mobile; story reveal and inn service remain functional",
+    "Dialogue adapts to landscape and desktop; switching to crafting restores normal modal layout"
+  ],
+  "errors": [],
+  "frames": {
+    "bram": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "mira": [
+      1,
+      2,
+      3,
+      0
+    ],
+    "elian": [
+      5,
+      0,
+      8,
+      9,
+      10,
+      11
+    ],
+    "portal": [
+      1,
+      2,
+      0
+    ]
+  }
+}

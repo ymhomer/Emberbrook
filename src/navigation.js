@@ -1,4 +1,4 @@
-/* Authored ground surfaces and travel triggers; shared by renderer and tests. */
+/* Authored ground surfaces, directional world layout and paired travel triggers. */
 (function(root){const data={
   "regions": {
     "village": {
@@ -489,7 +489,8 @@
             905
           ]
         ]
-      ]
+      ],
+      "art": "village.webp"
     },
     "forest": {
       "ground": [
@@ -622,6 +623,32 @@
             190,
             550
           ]
+        ],
+        [
+          [
+            0,
+            530
+          ],
+          [
+            270,
+            530
+          ],
+          [
+            350,
+            570
+          ],
+          [
+            350,
+            650
+          ],
+          [
+            220,
+            640
+          ],
+          [
+            0,
+            630
+          ]
         ]
       ],
       "rectBlocks": [
@@ -644,7 +671,8 @@
           405
         ]
       ],
-      "polyBlocks": []
+      "polyBlocks": [],
+      "art": "forest-v5.webp"
     },
     "dungeon": {
       "ground": [
@@ -687,21 +715,118 @@
           400
         ]
       ],
+      "polyBlocks": [],
+      "art": "dungeon.webp"
+    },
+    "meadow": {
+      "art": "meadow-v5.webp",
+      "ground": [
+        [
+          [
+            670,
+            0
+          ],
+          [
+            850,
+            0
+          ],
+          [
+            870,
+            220
+          ],
+          [
+            1000,
+            300
+          ],
+          [
+            1120,
+            380
+          ],
+          [
+            1200,
+            540
+          ],
+          [
+            1160,
+            750
+          ],
+          [
+            1010,
+            850
+          ],
+          [
+            750,
+            920
+          ],
+          [
+            490,
+            850
+          ],
+          [
+            350,
+            730
+          ],
+          [
+            320,
+            560
+          ],
+          [
+            410,
+            400
+          ],
+          [
+            600,
+            280
+          ],
+          [
+            650,
+            200
+          ]
+        ]
+      ],
+      "rectBlocks": [
+        [
+          900,
+          325,
+          1040,
+          430
+        ],
+        [
+          720,
+          610,
+          920,
+          715
+        ],
+        [
+          260,
+          210,
+          460,
+          355
+        ],
+        [
+          1070,
+          340,
+          1220,
+          470
+        ]
+      ],
       "polyBlocks": []
     }
   },
   "portals": {
     "village": [
       {
-        "id": "forest",
+        "id": "southGate",
         "x": 730,
         "y": 900,
         "radius": 28,
-        "target": "forest",
+        "target": "meadow",
         "spawn": {
-          "x": 755,
-          "y": 780
-        }
+          "x": 760,
+          "y": 235
+        },
+        "edge": "south",
+        "pair": "village-meadow"
       },
       {
         "id": "eastGate",
@@ -710,9 +835,11 @@
         "radius": 25,
         "target": "forest",
         "spawn": {
-          "x": 755,
-          "y": 780
-        }
+          "x": 245,
+          "y": 585
+        },
+        "edge": "east",
+        "pair": "village-forest"
       },
       {
         "id": "mine",
@@ -724,20 +851,24 @@
           "x": 770,
           "y": 740
         },
-        "requires": "sword"
+        "requires": "sword",
+        "edge": "down",
+        "pair": "village-dungeon"
       }
     ],
     "forest": [
       {
         "id": "home",
-        "x": 755,
-        "y": 925,
+        "x": 90,
+        "y": 585,
         "radius": 28,
         "target": "village",
         "spawn": {
-          "x": 730,
-          "y": 850
-        }
+          "x": 1435,
+          "y": 585
+        },
+        "edge": "west",
+        "pair": "village-forest"
       }
     ],
     "dungeon": [
@@ -750,8 +881,47 @@
         "spawn": {
           "x": 1160,
           "y": 180
-        }
+        },
+        "edge": "up",
+        "pair": "village-dungeon"
+      }
+    ],
+    "meadow": [
+      {
+        "id": "meadowHome",
+        "x": 760,
+        "y": 105,
+        "radius": 28,
+        "target": "village",
+        "spawn": {
+          "x": 730,
+          "y": 850
+        },
+        "edge": "north",
+        "pair": "village-meadow"
       }
     ]
+  },
+  "layout": {
+    "village": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "forest": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "meadow": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "dungeon": {
+      "x": 0,
+      "y": 0,
+      "z": -1
+    }
   }
 };root.EmberNavigation=data;if(typeof module!=="undefined")module.exports=data;})(typeof globalThis!=="undefined"?globalThis:this);

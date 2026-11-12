@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 — Directional world and character conversations
+
+- Replaced faint travel circles with three-layer, three-phase upright portal effects.
+- Added 16-frame animation sheets for each NPC, including idle gestures/blinks and walking clips.
+- Rebuilt conversations around original large standees, a bottom parchment text box, speaker nameplate, progressive text and separate choices. Added mobile/landscape layouts while preserving shop/inn/ranger services.
+- Split the old duplicate exits: east village bridge ↔ west woodland trail; south village gate ↔ north Sunleaf Meadow trail. Added the corresponding painted west entry and a separate meadow map with gathering/rest spots.
+- Added reciprocal edge/grid, distinct destination, real frame, dialogue and return-route regressions. Save format remains version 1.
+
 ## 0.4.0 — Mobile world and living village
 
 - Centralized navigation geometry, aligned the bridge deck/landings, opened the east dirt road and inn-side path, and preserved valid far-east save positions.

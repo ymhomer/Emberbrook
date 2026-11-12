@@ -15,6 +15,21 @@
     "bytes": 37520
   },
   {
+    "path": "src/assets/dialogue-bram-v5.webp",
+    "sha256": "131b5b5c8d6430c6bdad721bb1738638fe5b7d9c5c1fff0aa393be3889462081",
+    "bytes": 153860
+  },
+  {
+    "path": "src/assets/dialogue-elian-v5.webp",
+    "sha256": "b4a152e876c2a7c3927318d82a842f6c52aa518f5ad82ac5c8984ee202838439",
+    "bytes": 165692
+  },
+  {
+    "path": "src/assets/dialogue-mira-v5.webp",
+    "sha256": "6c18626f06b88a83b369c4d2b1f140c49dfeb276d2d24e6f3215af8f353e9fb9",
+    "bytes": 165084
+  },
+  {
     "path": "src/assets/dungeon.webp",
     "sha256": "59e2a54d6a8d1feb9f06097ff861bfca275f743346b5d72686f1d84afd1a5d27",
     "bytes": 754366
@@ -41,13 +56,18 @@
   },
   {
     "path": "src/assets/fonts/ui.ttf",
-    "sha256": "dddc295a27b41060dc4aea8b8f030ff66e54223136d4050cbe26874c389edbb9",
-    "bytes": 142808
+    "sha256": "cf39fc3d395fe1f15c314f8fe8ae1e9b336077671850253c568caeca8f26b4c7",
+    "bytes": 149696
   },
   {
     "path": "src/assets/foreground.png",
     "sha256": "e122508df90c18c4124c9e76262db246ad575bfafe9662a9784dac2f05434f1b",
     "bytes": 639870
+  },
+  {
+    "path": "src/assets/forest-v5.webp",
+    "sha256": "5037f89b128592f961e620ddcbc9723c2ba0392f57267fbfb20dd7db7043e067",
+    "bytes": 685212
   },
   {
     "path": "src/assets/forest.webp",
@@ -65,9 +85,19 @@
     "bytes": 3239
   },
   {
+    "path": "src/assets/meadow-v5.webp",
+    "sha256": "4c1e34338919ca1bdfd6176b6bc848d74e16337015ba66f3b33faca221a29b0d",
+    "bytes": 816596
+  },
+  {
     "path": "src/assets/npc-innkeeper-v4.png",
     "sha256": "d0d1a0649b00b9c9924f3fd934d59d338fda8a3bea3bc6bb2597a5a38fd0520c",
     "bytes": 73520
+  },
+  {
+    "path": "src/assets/npc-innkeeper-v5.png",
+    "sha256": "9ffef995afe048d1c9b960e8d7861be0a7ebec6238dceac15c7cd206b091294e",
+    "bytes": 319079
   },
   {
     "path": "src/assets/npc-innkeeper.png",
@@ -85,6 +115,11 @@
     "bytes": 69439
   },
   {
+    "path": "src/assets/npc-resident-v5.png",
+    "sha256": "7868cd6493509cdcd3d27a26eaaee6af7cc6c55c397de0e84e05c2eb7f90f8ec",
+    "bytes": 322575
+  },
+  {
     "path": "src/assets/npc-resident.png",
     "sha256": "670b57e4e9c51f472e7d61fe9213166905fd3a76e228e3d745dbd5fb03eba66b",
     "bytes": 3207
@@ -93,6 +128,11 @@
     "path": "src/assets/npc-smith-v4.png",
     "sha256": "42f885ea99e78b1d2803c4d12f7a1e4ab02487a195502946f021995fbe8cda78",
     "bytes": 81594
+  },
+  {
+    "path": "src/assets/npc-smith-v5.png",
+    "sha256": "eb3820e745db35225b0baa4dda574108ca579e9770e80ab2b7558e2c64193395",
+    "bytes": 318909
   },
   {
     "path": "src/assets/npc-smith.png",
@@ -141,28 +181,28 @@
   },
   {
     "path": "src/core.js",
-    "sha256": "658c2948de9b3836a36e9c13f157a977b32fba3e7cc669e415a94deb8ed3a0eb",
-    "bytes": 6281
+    "sha256": "488fd9eb05e1eb2e4fbb48002e6846f7c709e12607893fe4b3c4d8442071bc7d",
+    "bytes": 6311
   },
   {
     "path": "src/game.js",
-    "sha256": "0227f380abb3847c00186671acbdc8f5d2943d709313f7326fdc4b000072a703",
-    "bytes": 25849
+    "sha256": "6a63b426f31a2671d5bf9f13fddc7e462ad8c8c4aef85c6e204d207f1b9c067e",
+    "bytes": 26364
   },
   {
     "path": "src/index.html",
-    "sha256": "974344536d2912f28f899785af0e51ecde7d1b251526da60165f3c5c0c2dc173",
+    "sha256": "1aa84822c1281e542cfc628486ba5df74a158bfa42b1b467fd03740e6e7ae9a9",
     "bytes": 10386
   },
   {
     "path": "src/navigation.js",
-    "sha256": "3d92e90a8fe64749152df358bb14623cfca1a36a06ddb4fddd551ed7b1527fba",
-    "bytes": 11155
+    "sha256": "33ab9412dc200b6454542a2959191d8cd4d2a5a117ce6e2c0035034045556b0d",
+    "bytes": 13810
   },
   {
     "path": "src/style.css",
-    "sha256": "f34422e12f4b7eeb5211a0b30e7601370a82928cf203ff75639f5b1c3e3fdc24",
-    "bytes": 31755
+    "sha256": "d719725fee2d1640d9f5cdc80cb76a6734bebf07bd77aff2ed5e5539cfebbfce",
+    "bytes": 36433
   },
   {
     "path": "src/touch.js",
@@ -171,12 +211,12 @@
   },
   {
     "path": "src/ui.js",
-    "sha256": "d77e6e4c62af575be5679a9bc93ca329530223add8e7944d94be6d65f6cacdf9",
-    "bytes": 32854
+    "sha256": "3e02fcf84f61e7eb3855d5a17ee82a32511019c81b1c2a5d411a8bf224ddc263",
+    "bytes": 35770
   },
   {
     "path": "src/world-effects.js",
-    "sha256": "2c9414cf454ffd00ba24e12a215847128d20149ccc79a12e18484772a604531b",
-    "bytes": 2816
+    "sha256": "309ec5b57e47ab08bc0ca4b7d9bd8396e24c9ce43d113f00794a52c95f107c9f",
+    "bytes": 4008
   }
 ]

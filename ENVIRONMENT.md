@@ -17,3 +17,5 @@
 2026-11-11 v0.3: original woodland and traveler art generated with built-in imagegen; runtime assets prepared with existing Pillow tools. No new dependencies installed. Reused project-local Chromium for complete gameplay and high-DPI mobile checks.
 
 2026-11-12 v0.4: reused pinned Phaser/Playwright and existing Pillow tools. Original NPC sheet generated through built-in imagegen; derived sprite, water-mask and bridge-foreground assets stay in the project. No new dependencies, global settings or services. Local-file pixel comparison uses a test-only browser file-access flag; normal play does not require it.
+
+2026-11-12 v0.5: reused existing dependencies and isolated browser/Pillow runtime. Built-in imagegen produced original NPC animation sheets, large dialogue standees, a west-entry woodland edit and a north-entry meadow. Optimized standees use alpha WebP. Project writes ran through scoped permission escalation because this turn started read-only; no host settings or services changed.

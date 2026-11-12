@@ -1,0 +1,82 @@
+{
+  "assets": [
+    {
+      "path": "src/assets/dialogue-bram-v5.webp",
+      "sha256": "131b5b5c8d6430c6bdad721bb1738638fe5b7d9c5c1fff0aa393be3889462081",
+      "bytes": 153860,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/dialogue-elian-v5.webp",
+      "sha256": "b4a152e876c2a7c3927318d82a842f6c52aa518f5ad82ac5c8984ee202838439",
+      "bytes": 165692,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/dialogue-mira-v5.webp",
+      "sha256": "6c18626f06b88a83b369c4d2b1f140c49dfeb276d2d24e6f3215af8f353e9fb9",
+      "bytes": 165084,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/forest-v5.webp",
+      "sha256": "5037f89b128592f961e620ddcbc9723c2ba0392f57267fbfb20dd7db7043e067",
+      "bytes": 685212,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/meadow-v5.webp",
+      "sha256": "4c1e34338919ca1bdfd6176b6bc848d74e16337015ba66f3b33faca221a29b0d",
+      "bytes": 816596,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/npc-innkeeper-v5.png",
+      "sha256": "9ffef995afe048d1c9b960e8d7861be0a7ebec6238dceac15c7cd206b091294e",
+      "bytes": 319079,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/npc-resident-v5.png",
+      "sha256": "7868cd6493509cdcd3d27a26eaaee6af7cc6c55c397de0e84e05c2eb7f90f8ec",
+      "bytes": 322575,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    },
+    {
+      "path": "src/assets/npc-smith-v5.png",
+      "sha256": "eb3820e745db35225b0baa4dda574108ca579e9770e80ab2b7558e2c64193395",
+      "bytes": 318909,
+      "tool": "built-in imagegen; runtime crop, alpha cleanup and resizing only"
+    }
+  ],
+  "master_sha256": {
+    "forest": "97e59d9cbb8d5ae48a37d74c9bb84f3c6ff2eaa54ab57028bac91cc57a29140f",
+    "meadow": "8abfa0921465ccf4139081ae74ce7b049aee27e40e21a4b2fddd56e4f71b7c83",
+    "portraits": "4df4a698e485b73fd3e0478fefabc82b2773614fb7605a43479add63aff96764",
+    "smith": "9791912a936191a8ea3e712fc1d5980448fea19d2662253158ddb84594a1e471",
+    "innkeeper": "753b306e6541d1c0eba4e00237df3e558f2b1fcff296f6009d24b9de3acdb0a7",
+    "resident": "786b00f58f425d500e21d76e80cbca4aa90eb456b498fd2769a60640002870f7"
+  },
+  "prompts": {
+    "forest": "Edit this original game map minimally. Preserve the exact 1536x1024 orthographic layout, cottage, shrine, herb beds, campfire, pond, fishing pier, northern and southern paths, colors and detailed hand-painted cozy fantasy style. Change ONLY the left border around y530\u2013640: create a clearly walkable sandy path entering at x0,y590 from the WEST edge and joining the existing open clearing at x330,y600. Remove or relocate the fallen log and small blocking vegetation from this west-entry corridor; keep cottage and herb bed above untouched. A few subtle weathered guide stones may line the western path but no gates/buildings/people/text/UI. This west entrance must visually line up with the village's east bridge exit at y590.",
+    "meadow": "Finished orthographic elevated top-down cozy fantasy RPG map, 1536x1024 landscape. Original premium detailed hand-painted art matching a warm autumn medieval village and woodland: fine leaves, weathered wood, stone, wildflowers, rich painterly texture, soft golden sunlight, no UI, letters, people, grids or watermark. A distinct Sunleaf Meadow south of the village. Broad sandy walking trail enters from the TOP/NORTH edge at x760,y0, continues visibly through x760,y180 to a broad open meadow clearing centered x770,y520, then winds toward a small orchard at lower right. Two small apple trees around x1140,y440 and x1200,y660, a flower/herb patch near x430,y570, a low picnic blanket and basket around x820,y670, small stone fountain around x980,y390, hay wagon off path at upper left x360,y300, wooden fence along distant upper corners. Centre x500\u20131050,y250\u2013800 is clearly walkable sandy grass/dirt without obstructions. Frame the outer edges with autumn shrubs and warm green trees; no cottage, lake or campfire, keep this region visually distinct from forest. Top entry must clearly be a NORTH path, not a southern entry.",
+    "portraits": "Use the three characters in the reference as identity, outfit and art-style references. Create a new large transparent dialogue illustration sheet, NOT a screenshot or UI. Exactly THREE full character illustrations side by side in equal-width columns on a landscape 1536x1024 transparent canvas, separated by generous empty gutters. Left: Bram, friendly stocky bearded blacksmith in cream rolled sleeves and russet leather apron, one hand on belt, hammer at waist. Centre: Mira, friendly dark-brown-haired innkeeper woman in plum dress, embroidered cream blouse and apron, one open hand welcoming the player. Right: Elian, auburn-haired ranger in olive cape and cream tunic, holding a rolled map. All three from head to mid-thigh or knees, same scale, entire heads/hands within their own columns, no overlap. Sophisticated crisp detailed hand-painted cozy fantasy game character art, expressive warm faces, polished material detail and fine outline, same identity and palette as reference. No background, letters, borders, speech bubbles or props outside characters. These are high-resolution character standees for a visual novel style dialogue overlay.",
+    "npc_animation": "Production game sprite sheet of ONLY {character}. Reference is identity and painterly style, do not include other characters. Transparent background, exactly FOUR columns and FOUR rows, 16 evenly spaced cells on a square canvas, each cell one full-body character centered at the same scale and baseline, generous transparent margins, no text, no ground or shadows or grid lines. Crisp richly detailed hand-painted cozy fantasy RPG sprite, slightly chibi but refined, same outfit and head size in every frame. Elevated orthographic camera. Row1 SOUTH/front-facing four distinct idle animation poses showing {gesture}; small natural variations not large jumps. Row2 four WEST/left-facing walking poses alternating feet/arms. Row3 four EAST/right-facing walking poses alternating feet/arms. Row4 four NORTH/back-facing walking poses. Entire body, hands and feet visible within every cell. Clean consistent silhouette, consistent lighting, no blurry pixel art, no extra figures.",
+    "portrait_cleanup": "Remove ALL of the brown/green gradient background between and around these three character illustrations. Output a genuine transparent cutout sheet. Preserve all three characters exactly as drawn, their faces, hair, clothes, poses, hands, proportions, palette and three-column layout. Background pixels must have alpha zero, no backdrop, no gradient glow, no scenery, no shadows, no white or colored matte. Keep the fine hair edges and all body detail. Do not redraw their identities or crop the heads or hands."
+  },
+  "generation_mode": "Built-in imagegen (no CLI/API-key workflow)",
+  "npc_prompt_variants": {
+    "smith": {
+      "character": "Bram, the bearded blacksmith in the LEFT of reference, brown short hair, russet leather apron, rolled cream sleeves, brass belt and brown boots",
+      "gesture": "small hammering/working hand gestures and a blink"
+    },
+    "innkeeper": {
+      "character": "Mira, the innkeeper in the CENTRE of reference, tied brown hair, plum dress, cream embroidered blouse and apron, brown boots",
+      "gesture": "a welcoming hand wave, relaxed hand movement and a blink"
+    },
+    "resident": {
+      "character": "Elian, the ranger on the RIGHT of reference, tousled auburn hair, olive cape, cream tunic, leather satchel, brown boots",
+      "gesture": "checking a small rolled map, looking up and a blink"
+    }
+  }
+}
